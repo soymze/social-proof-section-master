@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+body{
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 90%;
+    min-height: 80vh;
+    background: url(./images/bg-pattern-top-desktop.svg),
+      url(./images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 0vw top -6vh, right 0vw bottom -14vh;
+}
+.description{
+    border: none;
+    width: 30%;
+    margin-left: 10rem;
+}
+
+.description > h1{
+    margin-right: 15rem;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 45px;
+    width: 90%;
+}
+
+.description > p{
+    margin-right: 5rem;
+    color: hsl(300, 43%, 22%);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.top-half{
+    display: flex;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+
+.tab{
+    display: flex;
+    border: none;
+    margin-bottom: 1rem;
+    margin-left: 10rem;
+    width: 45%;
+    background-color: hsla(333, 80%, 67%,0.1);
+    border-radius: 5px;
+}
+
+.rating-tabs{
+    border: none;
+    width: 100%;
+}
+
+p{
+    color: hsl(300, 43%, 22%);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+svg{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.buyer-tabs{
+    display: flex;
+    margin-left: 10rem;
+    height: 18rem;
+}
+
+.bio{
+    display: flex;
+}
+
+img{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.tab-1{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    width: 25%;
+    height: 14rem;
+}
+
+.tab-2{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    width: 25%;
+    height: 14rem;
+    margin-top: 1rem;
+}
+
+.tab-3{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    width: 25%;
+    height: 14rem;
+    margin-top: 2rem;
+}
+
+/* Ekran genişliği 1200px ve üzeri */
+@media (min-width: 1200px) {
+    .tab {
+        margin-left: 10rem;
+        width: 45%;
+        margin-bottom: 1rem; /* Tablar arasındaki boşluk */
+    }
+}
+
+/* Ekran genişliği 992px ile 1199px arası */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .tab {
+        margin-left: 5rem;
+        width: 80%;
+        margin-bottom: 1rem; /* Tablar arasındaki boşluk */
+    }
+}
+
+/* Ekran genişliği 768px ile 991px arası */
+@media (min-width: 768px) and (max-width: 991px) {
+    .tab {
+        margin-left: 2rem;
+        width: 90%;
+        margin-bottom: 1rem; /* Tablar arasındaki boşluk */
+    }
+}
+
+/* Ekran genişliği 767px ve altı */
+@media (max-width: 767px) {
+    .tab {
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 1rem; /* Tablar arasındaki boşluk */
+    }
+}
+
+/* Mobil cihazlar için */
+@media (max-width: 767px) {
+    .top-half {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description {
+        width: 90%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .description > h1 {
+        margin-right: 0;
+        font-size: 24px;
+    }
+
+    .description > p {
+        margin-right: 0;
+        font-size: 14px;
+    }
+
+    .rating-tabs {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0; /* padding added for spacing */
+    }
+
+    .tab {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    .tab svg {
+        margin-left: 0.5rem;
+    }
+
+    .tab p {
+        margin-left: 1rem;
+        font-weight: 700;
+    }
+
+    .bottom-half {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buyer-tabs {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tab-1, .tab-2, .tab-3 {
+        width: 100%;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        box-sizing: border-box;
+        background-color: hsl(300, 43%, 22%);
+        border-radius: 5px;
+    }
+    
+
+    .bio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 4rem;
+        height: 4rem;
+        margin: 0;
+    }
+
+    .bio-text {
+        text-align: center;
+    }
+}
+
+

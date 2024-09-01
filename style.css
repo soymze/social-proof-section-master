@@ -35,7 +35,7 @@ body{
 .top-half{
     display: flex;
     margin-top: 8rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1.75rem;
 }
 
 .tab{
@@ -121,6 +121,7 @@ img{
         margin-left: 5rem;
         width: 80%;
         margin-bottom: 1rem; /* Tablar arasındaki boşluk */
+        margin-top: -1.5rem;
     }
 }
 

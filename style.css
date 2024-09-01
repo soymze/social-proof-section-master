@@ -43,7 +43,7 @@ body{
     border: none;
     margin-bottom: 1rem;
     margin-left: 10rem;
-    width: 50%;
+    width: 60%;
     background-color: hsla(333, 80%, 67%,0.1);
     border-radius: 5px;
 }
@@ -110,7 +110,7 @@ img{
 @media (min-width: 1200px) {
     .tab {
         margin-left: 10rem;
-        width: 50%;
+        width: 60%;
         margin-bottom: 1rem; /* Tablar arasındaki boşluk */
     }
 }
